@@ -1,0 +1,107 @@
+/* banner html */
+.banner {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT75Ydjp6mM8hMyR4oa1WBGhThijZQhwA5uO9XqniaT89KWKW7lQOoM2_8cx4pBgVGhNJo&usqp=CAU") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+/* banner html */
+
+
+/* staff */
+.crop-img {
+    object-fit: cover;
+}
+.staff img {
+    width: 200px;
+    border: 10px solid #cccccc;
+}
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+/* staff */
+
+
+/* kontak kami */
+.kontak {
+    background: url(https://wallpaperaccess.com/full/1867010.jpg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
+/* kontak kami */
+
+
+/* navigasi */
+.bg-black {
+    background-color: rgb(78, 3, 159);
+}
+/* navigasi */
+
+
+/* card-title */
+.card-custom {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(78, 3, 159);
+    transition: 0.2s;
+}
+.card-custom:hover {
+    box-shadow: 0 8px 16px rgb(78, 3, 159);
+}
+.card-icon {
+    font-size: 2rem;
+    color: rgb(78, 3, 159);
+}
+.card-title {
+    font-weight: bold;
+}
+/* card-title */
+
+
+/* info kampus */
+.info-kampus {
+    padding: 20px;
+}
+.info-kampus h2 {
+    text-align: center;
+    color: #000;
+}
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+.info-number {
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.info-text {
+    font-size: 1rem;
+}
+.info-text small {
+    display: block;
+    color: gray;
+}
+.info-item:nth-child(n+2) .info-number {
+    background-color: purple;
+}
+/* info kampus */
